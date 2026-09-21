@@ -8,7 +8,6 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 
   <style>
-    
     .hero-banner {
       background: linear-gradient(180deg, #37475a 0%, #232f3e 100%);
       color: #ffffff;
@@ -39,10 +38,23 @@
       margin-bottom: 8px;
       text-transform: uppercase;
     }
+
+    .signup-link-btn {
+      background-color: #febd69;
+      color: #111111 !important;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .signup-link-btn:hover {
+      background-color: #f3a847;
+    }
   </style>
 </head>
 <body>
 
+  <!-- NileMart Header Area -->
   <header>
     <div class="logo">Nile<span>mart</span></div>
     <div class="search-bar">
@@ -50,11 +62,14 @@
       <button type="button">Go</button>
     </div>
     <div class="header-links">
+      <!-- Assignment requirement: Link to the signup page -->
+      <a href="signup.html" class="signup-link-btn">Sign Up</a>
       <a href="#orders">Returns & Orders</a>
       <a href="#cart">Cart (0)</a>
     </div>
   </header>
 
+  <!-- Navigation Bar Area -->
   <nav>
     <ul>
       <li><a href="#today-deals">Today's Deals</a></li>
@@ -62,9 +77,11 @@
       <li><a href="#books">Books</a></li>
       <li><a href="#clothing">Fashion</a></li>
       <li><a href="#nile-basics">NileBasics</a></li>
+      <li><a href="signup.html" style="color: #febd69; font-weight: bold;">New Customer? Sign Up</a></li>
     </ul>
   </nav>
 
+  <!-- Main Content Area -->
   <main>
 
     <section class="hero-banner">
@@ -95,7 +112,6 @@
       </article>
 
       <article class="product-card">
-
         <span style="color: #067d62; font-weight: bold; font-size: 12px; margin-bottom: 5px;">In Stock</span>
         <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&q=80" alt="Hardcover Book">
         <h3>The Great Algorithm: A Novel</h3>
@@ -114,11 +130,13 @@
     </section>
   </main>
   
+  <!-- Footer Area -->
   <footer>
     <p>
       <a href="#terms">Conditions of Use</a> | 
       <a href="#privacy">Privacy Notice</a> | 
-      <a href="#help">Help</a>
+      <a href="#help">Help</a> |
+      <a href="signup.html">Sign Up</a>
     </p>
     
     <p style="margin-top: 15px; font-size: 12px; color: #999999;">
